@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://5603sma5o54y"
+path="res://.godot/imported/paragrafo_ (15).ogg-b3b3d40f58311f4f361c2a0dce6c972a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Audios/paragrafo_ (15).ogg"
+dest_files=["res://.godot/imported/paragrafo_ (15).ogg-b3b3d40f58311f4f361c2a0dce6c972a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

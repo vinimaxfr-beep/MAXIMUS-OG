@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://msjs1lihtteo"]
+
+[ext_resource type="Script" uid="uid://dw1oxq586hour" path="res://Scripts/cutscene.gd" id="1_1srds"]
+[ext_resource type="FontFile" uid="uid://d1xnxmo2d8cwm" path="res://Assets/manga_temple/mangatb.ttf" id="2_c1xi3"]
+
+[node name="Cutscene" type="Node" unique_id=1999715874]
+script = ExtResource("1_1srds")
+
+[node name="SubtitleLabel" type="RichTextLabel" parent="." unique_id=1527839663]
+offset_left = 152.0
+offset_top = 512.0
+offset_right = 1002.0
+offset_bottom = 633.0
+theme_override_fonts/normal_font = ExtResource("2_c1xi3")
+theme_override_font_sizes/normal_font_size = 34
+bbcode_enabled = true
+text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+scroll_active = false
+scroll_following = true
+scroll_following_visible_characters = true
+vertical_alignment = 1
+
+[node name="SkipButton" type="Button" parent="." unique_id=193197402]
+offset_left = 1024.0
+offset_top = 512.0
+offset_right = 1136.0
+offset_bottom = 630.0
+theme_override_font_sizes/font_size = 80
+text = ">"
+
+[node name="AudioPlayer" type="AudioStreamPlayer2D" parent="." unique_id=707532164]
+
+[node name="Label" type="Label" parent="." unique_id=1619361756]
+offset_left = 160.0
+offset_top = 192.0
+offset_right = 992.0
+offset_bottom = 384.0
+theme_override_font_sizes/font_size = 100
+text = "*Background*"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="SkipButton" to="." method="_on_skip_button_pressed"]
+[connection signal="finished" from="AudioPlayer" to="." method="_on_audio_player_finished"]

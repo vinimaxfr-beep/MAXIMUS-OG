@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bcpxlvdmy8up6"
+path="res://.godot/imported/paragrafo_ (7).ogg-1880d606c0478726b451deed9f53c3db.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Audios/paragrafo_ (7).ogg"
+dest_files=["res://.godot/imported/paragrafo_ (7).ogg-1880d606c0478726b451deed9f53c3db.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
